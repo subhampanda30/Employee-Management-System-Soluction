@@ -10,11 +10,12 @@
 	<ItemGroup>
 		<PackageReference Include="Bcrypt.Net-Next" Version="4.0.3" />
 		<PackageReference Include="DeKreyConsulting.AdoTestability.Testing.SqlServer" Version="1.1.0" />
+		<PackageReference Include="LSL.Rebus.EfCore.SqlServer" Version="1.0.25" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.7" />
-		<PackageReference Include="Microsoft.EntityFrameworkcore" Version="8.0.7" />
-		<PackageReference Include="Microsoft.EntityFrameworkcore.sqlserver" Version="8.0.7">
-			<PrivateAssets>all</PrivateAssets>
-			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransistive</IncludeAssets>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.6" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.6">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 		<PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.0.1" />
 		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.1" />
